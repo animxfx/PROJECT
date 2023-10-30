@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #F5F5F5;
+	font-family: 'Rubik', sans-serif;
+}
+
+.navbar{
+	padding-right: 300px;
+	padding-left: 200px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img{
+	height: 100px;
+	width: 100px;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+	margin-top: 5px;
+}
+
+li a{
+	color: #3E3C3C;
+	font-size: 20px;
+	margin-right: 40px;
+	text-decoration: none;
+}
+
+li a:hover{
+	color: #B1F2F2;
+}
+
+.game img{
+	height: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	width: 250px;
+}
+
+.main h1{
+	font-size: 40px;
+	text-align: center;
+	color: #3E3C3C;
+}
+
+.main p{
+	text-align: center;
+	margin-bottom: 10%;
+}
+
+.about{
+    padding: 5px;
+    /* display: flex; */
+}
+
+.left{
+    justify-content: center;
+    float: left;
+    margin-top: 3vh;
+    margin-left: 6vh;
+    color: #3E3C3C;
+}
+.right{
+    float: right;
+    text-align: center;
+    justify-content: center;
+    max-width: 70vw;
+    color: #3E3C3C;
+    margin-right: 10vh;
+}
+.table h1{
+	text-align: center;
+	color: #3E3C3C;
+	margin-top: 20%;
+}
+
+.table table{
+	text-align: center;
+	background-color: #EDECEC;
+	color: #3E3C3C;
+	margin-bottom: 15%;
+}
+
